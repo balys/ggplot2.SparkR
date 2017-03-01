@@ -8,7 +8,7 @@
 # @param data a list of Spark DataFrames (one for the plot and one for each
 #   layer)
 facet_train_layout_SparkR <- function(facet, data) {
-  UseMethod("facet_train_layout_SparkR")
+  UseMethod("facet_train_layout_SparkR.null")
 }
 
 facet_map_layout_SparkR <- function(facet, data, layout) {
